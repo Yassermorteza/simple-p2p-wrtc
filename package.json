@@ -1,0 +1,23 @@
+{
+  "name": "simple-p2p-wrtc",
+  "version": "1.0.0",
+  "description": "Sipmle WebRTC with simple-peer ",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "browserify script.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yassermorteza/simple-p2p-wrtc.git"
+  },
+  "author": "Yasser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yassermorteza/simple-p2p-wrtc/issues"
+  },
+  "homepage": "https://github.com/Yassermorteza/simple-p2p-wrtc#readme",
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "simple-peer": "^8.1.1"
+  }
+}
