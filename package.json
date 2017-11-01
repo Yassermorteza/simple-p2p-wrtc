@@ -4,6 +4,7 @@
   "description": "Sipmle WebRTC with simple-peer ",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "build": "browserify script.js -o bundle.js"
   },
   "keywords": [
